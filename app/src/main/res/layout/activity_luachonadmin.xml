@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/nendeptruyen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Luachonadmin">
+
+    <Button
+        android:id="@+id/btn_trovetrangchu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đi vào trang chính"
+        android:gravity="center"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_quantringuoidung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản trị người dùng"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn_quantritruyentranh"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Quản trị truyện tranh"
+        android:gravity="center"/>
+</LinearLayout>

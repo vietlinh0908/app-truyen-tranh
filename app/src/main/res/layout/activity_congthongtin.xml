@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CongthongtinActivity">
+    <TextView
+        android:text="Cổng Thông tin"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Người đồng sáng lập:"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="- Dương Long Vũ"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="- Phạm Việt Linh"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="- Đào Phương Mai"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Phương thức liên lạc:"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/imgbtn_call"
+            android:layout_width="95dp"
+            android:layout_height="63dp"
+            android:background="#22AC27"
+            android:src="@drawable/ic_baseline_call_24" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_facebook"
+            android:src="@drawable/ic_baseline_send_24"
+            android:background="#22AC27"
+            android:layout_width="95dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Hotline: 0368915189"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Fanpage của nhóm:Tổng hợp phim hoạt hình ý nghĩa nhất"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

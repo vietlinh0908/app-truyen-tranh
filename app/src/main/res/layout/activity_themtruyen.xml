@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Themtruyen">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm truyện"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_tentruyen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#748E2C"
+        android:hint="Nhập tên truyện" />
+    <EditText
+        android:id="@+id/edt_tentacgia"
+        android:background="#748E2C"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập tác giả"/>
+    <EditText
+        android:id="@+id/edt_tentap"
+        android:layout_marginTop="20dp"
+        android:background="#748E2C"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tập truyện số"/>
+    <EditText
+        android:id="@+id/edt_namsx"
+        android:background="#748E2C"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập năm sản xuất"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtn_camera"
+            android:layout_width="69dp"
+            android:layout_height="72dp"
+            android:src="@drawable/ic_camera" />
+
+        <ImageView
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/ic_baseline_image_24"
+            android:id="@+id/imv_anhthat"
+            android:layout_width="110dp"
+            android:layout_height="234dp"/>
+
+        <ImageButton
+            android:id="@+id/imgbtn_folder"
+            android:layout_width="63dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/ic_baseline_folder_24" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_themtruyen"
+            android:text="Thêm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginLeft="100dp"
+            android:id="@+id/btn_huytruyen"
+            android:text="Huỷ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

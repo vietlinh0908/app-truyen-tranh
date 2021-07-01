@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nendeptruyen"
+    tools:context=".MainActivity">
+    <ImageButton
+        android:id="@+id/imgBtnPower"
+        android:layout_width="82dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="290dp"
+        android:background="#55FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/btnpower" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logotlu"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="ĐỔI MẬT KHẨU"
+        android:textColor="#2100B3"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:text="Tài khoản:"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/edt_tkdoimk"
+            android:drawableRight="@drawable/ic_baseline_person_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tài khoản"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:text="Mật khẩu:"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edt_mkdoimk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_baseline_vpn_key_24"
+            android:hint="Nhập mật khẩu"
+            android:inputType="textPassword" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:text="Mật khẩu:"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edt_nhapmkmoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_baseline_vpn_key_24"
+            android:hint="Nhập mật khẩu mới"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/btn_trove"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trở về"/>
+        <Button
+            android:id="@+id/btn_doimk"
+            android:text="Đổi mật khẩu"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
